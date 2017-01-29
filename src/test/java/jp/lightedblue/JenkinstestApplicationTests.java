@@ -27,6 +27,9 @@ public class JenkinstestApplicationTests {
     public void testGet__Ok() throws Exception {
     	//test!!!
     	//fix
+    	//fix2
+    	//fix3
+    	//fix4
         mvc.perform(get("/"))
             .andExpect(status().isOk())
             .andExpect(content().string("!Spring MVC2"));
